@@ -1,0 +1,64 @@
+* {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     */
+     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.food {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card-header {
+    position: relative;
+}
+
+.promoted {
+    position: absolute;
+    top: 0;
+    opacity: 50%;
+    margin: 15px;
+    padding: 0px 5px;
+    background-color: rgb(103, 102, 102);
+    color: lightgray;
+}
+
+.time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.offer {
+    position: absolute;
+    bottom: 0;
+    padding: 0px 10px;
+    margin: 15px 0px;
+    background-color: rgb(13, 90, 255);
+    color: white;
+}
+
+
+
+p {
+    color: gray;
+    font-size: 15px;
+}
+
+.max-safety {
+    float: left;
+    padding-right: 10px;
+}
